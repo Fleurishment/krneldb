@@ -18,7 +18,7 @@ function App() {
     <ThemeProvider>
       <DatabaseProvider>
         <AuthProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/krneldatabase/">
             <div className="min-h-screen bg-background flex flex-col">
               <Navigation />
               <main className="flex-1">
